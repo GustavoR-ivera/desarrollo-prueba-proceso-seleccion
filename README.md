@@ -1,6 +1,6 @@
-##Gustavo Rivera - Proyect development
+#Gustavo Rivera - Proyect development
 
-*General considerations about software development*
+**General considerations about software development**
 
 1. Analysis
   -understand the business context
@@ -20,9 +20,9 @@
     -define the specification of the api alinged with the functional requirements
     -define input parameters as well as outputs 
   -for each aspect we can define a set of technologies to be used.
-  -**at the end of this step we have a general view of the system structure**
+**at the end of this step we have a general view of the system structure**
 
-3. Development & Testing
+4. Development & Testing
   -get the licenses for the respective services
   -get training for the development team
   -choose work methodology and tools for workflow
@@ -30,7 +30,7 @@
     -for example in scrum:
       -define product backlog, refine sprint backlog, schedule sprints, do retrospective etc...
 
-4. Implementation/deploy
+5. Implementation/deploy
 
 ###In this section I will explain you the development process of this excersice.
 propuestas de mejoras en el diseño planteado:
