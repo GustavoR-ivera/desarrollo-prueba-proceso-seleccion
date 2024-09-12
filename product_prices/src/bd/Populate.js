@@ -18,7 +18,7 @@ export class Populate{
                     return;
                 }
                 //show confirmation msg
-                console.log('store register created.');
+                //console.log('store register created.');
             });
 
             //product table
@@ -33,7 +33,7 @@ export class Populate{
                     return;
                 }
                 //show confirmation msg
-                console.log('product register created.');
+                //console.log('product register created.');
             });
 
             //rate table
@@ -52,7 +52,7 @@ export class Populate{
                     return;
                 }
                 //show confirmation msg
-                console.log('rates registers created.');
+                //console.log('rates registers created.');
             });
 
             //prices table
@@ -70,7 +70,7 @@ export class Populate{
                     return;
                 }
                 //show confirmation msg
-                console.log('product prices created.');
+                //console.log('product prices created.');
             });
         });
     }
