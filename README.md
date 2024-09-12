@@ -67,8 +67,8 @@ i present some improvements for the proposed design given in the techical test:
    * Api:
      Taking into account the previous considerations we have the following parameteres for the endpoint ():
         * input parameters:
-           * product_id
-           * purchase_date
+           * product_id: integer
+           * purchase_date: aaaa-mm-dd hh:mm:ss
         * output:
            * product_id
            * brand_id
@@ -76,7 +76,10 @@ i present some improvements for the proposed design given in the techical test:
            * start_date
            * end_date
            * final_price
-        * principal endpoint: /get-final-price/:product_id/:purchase_date 
+        * principal endpoint: /get-final-price/:product_id/:purchase_date
+          
+          ![image](https://github.com/user-attachments/assets/94a31189-0705-441e-a62f-606841c86d9f)
+
          
 3. Development (technologies used):
     * nodejs: v22.7.0
@@ -87,12 +90,21 @@ i present some improvements for the proposed design given in the techical test:
     "jest": 29.7.0,
     "supertest": 7.0.0
 
-*** clone the repository or download the zip folder ***
+***clone the repository or download the zip folder***
+
 - check if you have nodejs on your system
-- locate the produc_prices folder and execute the "npm install" command
-- start server: npm start
-- start tests: npm test
+- locate the product_prices folder and execute the "npm install" command
+- start server: npm start / node index.js
+- start tests:
+   * linux:
+      * package.json-> "scripts" -> "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+      * npm test
+   * windows:
+      * package.json-> "scripts" -> "test": "set NODE_OPTIONS=--experimental-vm-modules && jest"
+      * npm test
+         
+***screenshot validation tests***
 
-
+![image](https://github.com/user-attachments/assets/446741a7-a60e-4e09-bc60-d573394a29ae)
 
 
