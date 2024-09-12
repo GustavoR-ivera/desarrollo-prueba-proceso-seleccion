@@ -76,13 +76,23 @@ i present some improvements for the proposed design given in the techical test:
            * start_date
            * end_date
            * final_price
+        * principal endpoint: /get-final-price/:product_id/:purchase_date 
          
 3. Development (technologies used):
-   * nodejs version
-   * framework express version
-   * Sqlite3 version
-   * framework pruebas version
- 
+    * nodejs: v22.7.0
+    "dotenv": 16.4.5,
+    "express": 4.20.0,
+    "nodemon": 3.1.4,
+    "sqlite3": 5.1.7,
+    "jest": 29.7.0,
+    "supertest": 7.0.0
+
+*** clone the repository or download the zip folder ***
+- check if you have nodejs on your system
+- locate the produc_prices folder and execute the "npm install" command
+- start server: npm start
+- start tests: npm test
+
 
 
 
